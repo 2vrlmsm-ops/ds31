@@ -1,7 +1,7 @@
 {
-    "name": "akash-r1-proxy",
+    "name": "akash-V3-proxy",
     "version": "1.0.0",
-    "description": "Proxy server for Akash R1 API",
+    "description": "Proxy server for Akash V3 API",
     "main": "app.js",
     "scripts": {
       "start": "node app.js"

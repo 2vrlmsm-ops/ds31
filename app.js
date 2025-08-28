@@ -87,7 +87,7 @@ app.post("/v1/chat/completions", async (req, res) => {
         const messages = normalizeMessages(req.body.messages || []);
         const temperature = req.body.temperature !== undefined ? req.body.temperature : 1;
         const requestData = {
-            model: "DeepSeek-R1",
+            model: "DeepSeek-V3-1",
             messages: messages,
             max_tokens: req.body.max_tokens || 4096,
             temperature: temperature,
